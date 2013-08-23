@@ -16,7 +16,7 @@ require 'active_record'
 require 'logger'
 
 require 'sinatra'
-require 'shotgun'
+# require 'shotgun'
 
 require 'erb'
 
