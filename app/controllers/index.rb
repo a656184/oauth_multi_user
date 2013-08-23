@@ -4,6 +4,7 @@ end
 
 get '/sign_in' do
   # the `request_token` method is defined in `app/helpers/oauth.rb`
+  p request_token
   redirect request_token.authorize_url
 end
 
